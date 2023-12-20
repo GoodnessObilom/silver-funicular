@@ -1,0 +1,52 @@
+/* BACKGROUND COLOR OVERRIDE */
+.bg-primary{
+    background-color: #105568 !important;
+}
+
+.navbar.border-primary{
+    border-color: #105568 !important;
+}
+
+:root{
+    --grey: #105568 !important;
+    --primary: #ec6409 !important;
+    --secondary: #105568 !important;
+    --coolRadi: 50%;
+    --noRadius: 1px;
+    /* --verDark: linear-gradient(120deg, rgb(56, 20, 4), rgb(1, 15, 44));
+    --white: #fff; */
+}
+/* icons override with var function */
+.fa-headphones{
+    color: var(--grey) !important;
+}
+i.fa{
+    color: var(--grey) !important;
+}
+.good-radi{
+    border-radius: var(--coolRadi);
+}
+.position-absolute{
+    border-radius: 0;
+    background: none !important;
+    border-radius: 20%;
+    border: solid black 1px;
+}
+div.position-absolute{
+    border-radius: 0 !important;
+    
+}
+div.container-fluid{
+    background: var(--verDark);
+}
+.container-xxl{
+    background: var(--verDark);
+    color: #fff !important;
+}
+img.no-radius{
+    border-radius: var(--noRadius) !important;
+    border-radius: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+    color: var(--grey);
+  }
