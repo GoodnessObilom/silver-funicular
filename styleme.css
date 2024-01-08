@@ -50,3 +50,11 @@ img.no-radius{
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
     color: var(--grey);
   }
+  .grey-end{
+background-color: var(--grey) !important;
+border: #105568;
+  }
+  .navbar-brand{
+    min-width: inherit;
+    border-radius: 0 !important;
+  }
